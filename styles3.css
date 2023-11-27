@@ -1,0 +1,117 @@
+header{
+    background-color:aliceblue;
+    background-position:left;
+    color: darkblue;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    width: 100%;
+    height: 20vh;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background: white;
+    background-position: 100%;
+    height: 180vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dropdown{
+    min-width:15em;
+    position: relative;
+    margin: 2em;
+}
+.dropdown * {
+    box-sizing: border-box;
+}
+.select{
+    background: rgb(165,110,42);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding:1em;
+    cursor:pointer;
+    transition:  background 0.3s;
+}
+.select-clicked{
+    border:2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.select:hover{
+    background: rgb(165, 110, 42);
+}
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid transparent;
+    transition: 0.3s;
+}
+
+
+footer{
+    background:rgb(165, 110, 42) ;
+    color:white;
+    text-align: center;
+    padding:15px;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+
+}
+.contacts{
+    text-align: left;
+}
+
+.Location{
+    text-align: center;
+}
+.social-icons{ 
+     color:blue;
+     font-size: 28px;
+     margin:0 10px;
+    
+     align-items: left;
+}
+.flex-box1{
+    width:350px;
+    height:350px;
+    background-image: url(https://dcs.ug.edu.gh/img/gallery/shortcourse17.08.2021.jpeg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin:45px; 
+}
+.flex-box2{
+    width:350px;
+    height:350px;
+    background-image: url(https://dcs.ug.edu.gh/img/Cyber%20Security.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin:50px; 
+
+}
+.flex-box3{
+    width:350px;
+    height:350px;
+    background-image: url(https://dcs.ug.edu.gh/img/event3.jpeg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin:50px; 
+}
